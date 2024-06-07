@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { GeoIPController } from "./geoIp.controller";
-import { GeoIPService } from "./geoIp.service";
+import { GeoIPController } from "./part 1/geoIp.controller";
+import { GeoIPService } from "./part 1/geoIp.service";
 
 @Module({
   imports: [],
